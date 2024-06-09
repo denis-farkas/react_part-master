@@ -1,0 +1,19 @@
+.activite {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 327px;
+  height: 91px;
+  color: black;
+  border: 1px solid rgb(166, 166, 166);
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.activite.mute {
+  opacity: 0.5;
+  background-color: lightgray;
+}
